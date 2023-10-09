@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas</title>
+    <style>
+        body{
+            margin: 10;
+            padding: 0;
+            background-image: url(semogabisakesini.png);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<h1 style="text-align:center; color: aliceblue;"><marquee bgcolor="#872657">Curriculum Vitae</marquee></h1>
+<table border="0" cellpadding="0" cellspacing="0" align="center">
+    <tr>
+        <td width="408">
+        </td>
+        <td width="408" align="center">
+            <img src="fayyad.png" alt="foto fayad" style="width: 200px;height: 200px;">
+        </td>
+        <td width="408" align="right">
+            <audio id="audio" controls>
+                <source src="meanit.mp3" type="audio/mpeg">
+                browsermu tidak mendukung tag audio, upgrade dong!
+            </audio>
+        </td>
+    </tr>
+</table>
+<body>
+    <div id="text"><h1 style="text-align: center;">Abdurrahman Fayyadh Khairy</h1></div>
+
+    <script>
+        function changeColor() {
+            const colors = ["aliceblue", "purple", "#4B0150", "#FA2A55", "#FFDFDD", "black"];
+            const textElement = document.getElementById("text");
+            const randomColor = colors[Math.floor(Math.random() * colors.length)];
+            textElement.style.color = randomColor;
+        }
+        setInterval(changeColor, 300);
+    </script>
+</body>
+<body>
+    <table border="0" cellpadding="20" cellspacing="0" style="margin: 0 auto; width: 600px; background-color: #872657; color: aliceblue">
+        <tr>
+            <td width="50%" style="padding: 10px;">
+                <ul>
+                    <li><h2>Contact Information</h2></li>
+                    <p><strong>Instagram</strong> : <a href="https://instagram.com/fayyadh_khoiry?igshid=NTc4MTIwNjQ2YQ==" style="color: #F98B88">fayyadh_khoiry</a></p>
+                    <p><strong>Whatsapp</strong>  : <a href="https://wa.me/6285714858018?text=Hi%20Fayad" style="color: #F98B88;">085714858018</a></p>
+                    <p><strong>Address</strong>   : <a href="https://maps.app.goo.gl/xaDyNSmhKyhCFYsX7" style="color: #F98B88;">Jakarta Timur</a></p>
+                    <li><h2>Education</h2></li>
+                    <p><strong>Bachelor of Information System</strong><br> STT Nurul Fikri, 2023</p>
+                    <li><h2>Skills</h2></li>
+                    <ul>
+                        <li>Computing</li>
+                        <li>Reading</li>
+                        <li>Writing</li>
+                        <li>Problem Solving</li>
+                        <li>Flexibility</li>
+                    </ul>
+                    <li><h2>Interest</h2></li>
+                        <img src="interest.png" alt="aslinya mah ga semua suka wkwk" style="width: 400px;height: 200px;">
+                    <li><h2>Motto</h2></li>
+                    <p><strong><i>"Your mind must be stronger than your feelings"</i></strong></p>
+                </ul>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
